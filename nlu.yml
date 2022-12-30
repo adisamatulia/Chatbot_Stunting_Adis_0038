@@ -1,0 +1,130 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - Hai
+    - Selamat pagi
+    - Selamat Siang 
+    - Selamat Malam
+
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - good night
+    - bye
+    - goodbye
+    - terimakasih
+    - have a nice day
+    - thankyou
+    - see you
+
+- intent: affirm
+  examples: |
+    - Apakah saya boleh bertanya tentang stunting?
+    - Bolehkah saya bertanya tentang Stunting?
+    - Saya ingin tau banyak tentang Stunting
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: pertanyaan_1
+  examples: |
+    - Sebenarnya,apa itu stunting?
+    - Apa yang dimaksud dengan stunting?
+- intent: pertanyaan_2
+  examples: |
+    - Bagaimana cara membedakan stunting dan genetik?
+    - Apa perbedaan stunting dengan genetik?
+- intent: pertanyaan_3
+  examples: |
+    - Apa saja nutrisi anak di atas 2 tahun supaya tidak stunting? 
+- intent: pertanyaan_4
+  examples: |
+    - Apakah setelah usia 2 tahun (sudah lewat 1000 hari pertama kehidupan) sama sekali tidak bisa diperbaiki?
+    - Apakah stunting bisa diperbaiki?
+- intent: pertanyaan_5
+  examples: |
+    - adakah cara cepat atau tips mencegah stunting?
+- intent: pertanyaan_6
+  examples: |
+    - Apakah vitamin/ suplemen / minyak ikan dapat mencegah stunting?
+- intent: pertanyaan_7
+  examples: |
+    - Perlukah menambah sufor saat MPASI jika kenaikan berat badan melambat?
+- intent: pertanyaan_8
+  examples: |
+    - Apakah kuantitas dan kualitas MPASI cukup?
+- intent: pertanyaan_9
+  examples: |
+    - Bagaimana cara agar bayi kurang dari 6 bulan memiliki berat badan tidak melambat?
+- intent: pertanyaan_10
+  examples: |
+    - Bagaimana menilai pertumbuhan dan perkembangan bayi prematur?
+- intent: pertanyaan_11
+  examples: |
+    - Pertumbuhan BB melambat dan bahkan cenderung tidak naik, apakah stunting?
+- intent: pertanyaan_12
+  examples: |
+    - Pemberian besi pada anak-anak dan remaja sebaiknya bagaimana?
+- intent: pertanyaan_13
+  examples: |
+    - Bagaimana pemberian zat besi pada bayi di bawah 12 bulan?
+- intent: pertanyaan_14
+  examples: |
+    - Bayi menyusui 30-40 menit, bagaimana tips supaya bayi kenyang 10-15 menit?
+- intent: pertanyaan_15
+  examples: |
+    - Aturan MPASI sangat keliru misalnya banyak karbo, gorengan, terlalu banyak sufor, namun berat badan naik 
+      bagus dan kurva pertumbuhan baik, apakah ini berbahaya?

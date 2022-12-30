@@ -1,0 +1,132 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - pertanyaan_1
+  - pertanyaan_2
+  - pertanyaan_3
+  - pertanyaan_4
+  - pertanyaan_5
+  - pertanyaan_6
+  - pertanyaan_7
+  - pertanyaan_8
+  - pertanyaan_9
+  - pertanyaan_10
+  - pertanyaan_11
+  - pertanyaan_12
+  - pertanyaan_13
+  - pertanyaan_14
+  - pertanyaan_15
+  
+responses:
+  utter_greet:
+  - text: "Hallo,ada yang bisa saya bantu tentang stunting dan genetik?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Boleh,silakkan"
+
+  utter_goodbye:
+  - text: "Maaf ya bila kurang sempurna,terimakasih.
+  \n\nSalam dari Saya Adis Amatulia Rosida,NIM : 20.01.53.0038"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_pertanyaan_1:
+  - text: "Stunting adalah keadaan pendek yang khas disebabkan oleh gangguan nutrisi,
+\n\ninfeksi berulang yang tidak tertangani dalam jangka waktu yang lama."
+  
+  utter_pertanyaan_2:
+  - text: "Kekurangan gizi kronik yang menyebabkan anak menjadi stunting memang 
+\n\nditandai dengan perawakan yang pendek. Namun, perlu dipahami bahwa tidak semua 
+\n\nanak pendek merupakan anak yang stunting."
+ 
+  utter_pertanyaan_3:
+  - text: "Nutrisi untuk anak di atas 2 tahun mengikuti aturan “my plate” terdiri 
+\n\ndari ¼ sayuran, ¼ buah, ¼ karbohidrat (grain) dan ¼ protein. Pilih protein hewani 
+\n\ndan berbagai jenis sayuran berwarna-warni."
+ 
+  utter_pertanyaan_4:
+  - text: "Ada dua masalah akibat stunting yaitu pertumbuhan otak dan tinggi badan.
+\n\nPertumbuhan otak sangat pesat terjadi pada 2 tahun pertama sehingga setelah usia 2 tahun,
+\n\ntidak bisa diperbaiki. Tinggi badan masih bisa diperbaiki dengan berharap pada fase pubertas. 
+\n\nOleh karena itu JANGAN mengobati stunting tapi lakukanlah PENCEGAHAN. 
+\n\nPeriode emas yang masih bisa memperbaiki stunting adalah sebelum usia 2 tahun, dan hasilnya
+\n\npun tidak bisa kembali sempurna, artinya bisa diperbaiki namun optimal."
+
+  utter_pertanyaan_5:
+  - text: "Sayangnya tidak ada cara yang cepat, namun ada cara yang mudah yang harus dilakukan bertahun-tahun. 
+\n\nPencegahan stunting adalah perjalanan yang cukup panjang dari mempersiapkan remaja putri sebelum menempuh kehamilan,
+\n\nperencanaan keluarga dan kehamilan yang matang, menjaga kehamilan yang sehat,  
+\n\nnutrisi saat hamil dan menyusui, manajemen laktasi yang baik, manajemen MPASI yang adekuat, 
+\n\nmencegah penyakit dengan imunisasi yang LENGKAP dan pemantauan pertumbuhan anak terus-menerus. Jadi tidak ada cara cepat."
+
+  utter_pertanyaan_6:
+  - text: "Stunting dapat dicegah dengan pemberian nutrisi yang tepat. Nutrisi 
+\n\npembangun tumbuh adalah makronutrien yang terdiri dari Karbohidrat, protein 
+\n\ndan lemak. Sedangkan vitamin dan mineral merupakan mikronutrien yang 
+\n\nmerupakan zat pendukung, bukan pembangun. Vitamin dan mineral terbaik 
+\n\nberasal dari makanan, bukan dari apotek. Tidak ada vitamin dan suplemen 
+\n\npencegah stunting."
+ 
+  utter_pertanyaan_7:
+  - text: "Perlu ya,saat usia 6-12 bulan." 
+
+  utter_pertanyaan_8:
+  - text: "Pemberian sufor hanya dilakukan jika ASI tidak cukup.
+\n\nPemberian ASI pada masa MPASI tetap dominan mencapai 120 ml x Berat badan perharinya."
+
+  utter_pertanyaan_9:
+  - text: "Cobalah pompa ASI setiap 2-3 jam sekali, dan lihat hasilnya,
+\n\nproduksi ASI dikatakan cukup jika per porsi sekitar 20ml x Berat badan anak dan sekitar 200 ml x berat badan anak per hari.
+\n\nContoh jika berat badan banak 5 kg, maka produksi ASI dikatakan cukup jika per porsi 100 ml dan sehari 1000 ml."
+
+  utter_pertanyaan_10:
+  - text: "Pertumbuhan bayi prematur dipantau menggunakan kurva Fenton sampai usia koreksi 10 minggu, 
+\n\nkemudian pindah ke kurva WHO. Sedangkan perkembangan (verbal, motoric halus dan kasar) menggunakan 
+\n\nusia koreksi sampai usia 2 tahun, lalu dianggap sama dengan anak lain yang seusianya."
+
+  utter_pertanyaan_11:
+  - text: "BUKAN,stunting adalah ukuran tinggi badan yaitu pendek dibandingkan dengan anak seusianya. 
+\n\nStunting disebabkan oleh malnutrisi yang berlangsung lama, oleh karena itu berat badan yang tidak 
+\n\nnaik merupakan awal menuju kepada stunting, ayo segera diperbaiki."
+
+  utter_pertanyaan_12:
+   - text: "Remaja putri (terutama yang sudah haid) dianjurkan mengkonsumsi suplemen besi tiap minggu. 
+\n\nPada anak di atas 1 tahun, dianjurkan pemeriksaan zat besi darah sebelum memutuskan pemberian suplemen zat besi. 
+\n\nPemeriksaan zat besi meliputi darah lengkap, serum besi, TIBC dan ferritin."
+
+  utter_pertanyaan_13:
+   - text: "Pada bayi dengan ASI eksklusif dianjurkan pemberian zat besi usia 4-6 
+\n\nbulan (tanpa pemeriksaan lab terlebih darhulu), untuk bayi prematur diberikan zat besi sejak usia 1 bulan, 
+\n\nlalu setelah usia 6 bulan dianjurkan mendapatkan asupan tinggi zat besi dari MPASI (tinggi protein hewani)." 
+
+  utter_pertanyaan_14:
+   - text: "Tingkatkan produksi ASI dengan memompa payudara salaam 15-20 menit setelah menyusu,
+\n\ndan berikan ASI perah kepada bayi setelah menyusu."
+
+  utter_pertanyaan_15:
+  - text:  "Saat anak gagal tumbuh di periode ASI (0-6 bulan), 
+\n\nlakukanlah 2 hal yaitu: cukupkan gizinya dengan PASI (pengganti ASI) 
+\n\ndan lakukan relaktasi (mengembalikan/meningkatkan produksi ASI).
+\n\nPASI (sufor) dapat diberikan seperti memberikan ASI perah yaitu perporsi 
+\n\nsekitar 20 mlx berat badan dan setiap 8-12x sehari.
+\n\nJangan lupa merangsang produksi ASI sehingga nantinya, kebutuhan PASI akan menurun 
+\n\nseiring dengan bertambahnya produksi ASI."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

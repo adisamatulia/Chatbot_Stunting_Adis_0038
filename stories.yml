@@ -1,0 +1,109 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: 1path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_happy
+  - intent: pertanyaan_1
+  - action: utter_pertanyaan_1
+
+- story: 2path
+  steps:
+  - intent: pertanyaan_2
+  - action: utter_pertanyaan_2
+
+- story: 3path
+  steps:
+  - intent: pertanyaan_3
+  - action: utter_pertanyaan_3
+
+- story: 4path
+  steps:
+  - intent: pertanyaan_4
+  - action: utter_pertanyaan_4
+
+- story: 5path
+  steps:
+  - intent: pertanyaan_5
+  - action: utter_pertanyaan_5
+
+- story: 6path
+  steps:
+  - intent: pertanyaan_6
+  - action: utter_pertanyaan_6
+
+- story: 7path
+  steps:
+  - intent: pertanyaan_7
+  - action: utter_pertanyaan_7
+
+- story: 8path
+  steps:
+  - intent: pertanyaan_8
+  - action: utter_pertanyaan_8
+
+- story: 9path
+  steps:
+  - intent: pertanyaan_9
+  - action: utter_pertanyaan_9
+
+- story: 10path
+  steps:
+  - intent: pertanyaan_10
+  - action: utter_pertanyaan_10
+
+- story: 11path
+  steps:
+  - intent: pertanyaan_11
+  - action: utter_pertanyaan_11
+
+- story: 12path
+  steps:
+  - intent: pertanyaan_12
+  - action: utter_pertanyaan_12
+
+- story: 13path
+  steps:
+  - intent: pertanyaan_13
+  - action: utter_pertanyaan_13
+
+- story: 14path
+  steps:
+  - intent: pertanyaan_14
+  - action: utter_pertanyaan_14
+
+- story: 15path
+  steps:
+  - intent: pertanyaan_15
+  - action: utter_pertanyaan_15
